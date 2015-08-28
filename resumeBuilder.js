@@ -1,7 +1,7 @@
-var name = "Ilario Vigliocco"
-var role = "Web Developper"
+var HTMLheaderName = '<h1 id="Ilario Vigliocco">%data%</h1>';
+var HTMLheaderRole = '<span>%data%</span><hr/>';
 var farmattedName = HTMLheaderName.replace(%data%, name);
-var  = HTMLheaderRole.replace(%data% role);
+var formattedRole = HTMLheaderRole.replace(%data% role);
 $("#header").append(fotmattedName);
 $("#header").append(fotmattedRole);
 
